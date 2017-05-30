@@ -10,3 +10,7 @@ insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[*.go]
+# community against spaces and forcibly limits the change to spaces
+indent_style = tab

@@ -12,6 +12,7 @@ const (
 var calls = 0
 
 func faviconHandler(w http.ResponseWriter, r *http.Request) {
+	// required noop
 }
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
